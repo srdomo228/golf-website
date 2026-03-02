@@ -1,5 +1,4 @@
 /* style.css - Golf Basics Educational Website */
-/* Reset some defaults for consistency */
 * {
     margin: 0;
     padding: 0;
@@ -100,8 +99,7 @@ a:hover {
     background-color: #f9fff9;
 }
 
-/* 4. Flexbox layout (required - one clear example) */
-/* We'll make the three main sections side-by-side on larger screens */
+
 main {
     display: flex;
     flex-wrap: wrap;
