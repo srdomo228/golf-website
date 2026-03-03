@@ -111,13 +111,35 @@ main {
 }
 
 main section {
-    flex: 1 1 320px;                /* grow, shrink, base ~320px */
-    min-width: 0;                   /* prevents overflow */
+    flex: 1 1 320px;                
+    min-width: 0;                   
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 1.1rem;           
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        gap: 2rem;
+    }
+
+    img {
+        margin: 1.5rem 0;
+    }
 }
 
-/* On small screens, stack vertically (already happens thanks to flex-wrap) */
-
-/* Optional: make images in flex items behave nicely */
 main section img {
     margin: 1rem auto;
 }
