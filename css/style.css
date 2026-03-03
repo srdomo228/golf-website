@@ -57,11 +57,14 @@ footer {
 }
 
 a {
-    color: #e0f2e9;                 /* light green for links */
-    text-decoration: none;
+    color: #d0e8d5;                 /* light green for links */
+    text-decoration: underline;
 }
 
-a:hover {
+a:hover,
+a:focus {
+    outline: 3px solid #4CAF50;
+    outline-offset: 2px;
     text-decoration: underline;
     color: #ffffff;
 }
